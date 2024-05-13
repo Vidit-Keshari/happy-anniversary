@@ -1,0 +1,47 @@
+body {
+    background: hsla(253, 100%, 10%, 1);
+    background: linear-gradient(0deg, hsla(253, 100%, 10%, 1) 0%, hsla(220, 100%, 17%, 1) 10%, hsla(220, 100%, 29%, 1) 20%, hsla(220, 100%, 41%, 1) 30%, hsla(212, 100%, 47%, 1) 40%, hsla(215, 100%, 61%, 1) 50%, hsla(204, 96%, 54%, 1) 60%, hsla(210, 100%, 68%, 1) 70%, hsla(207, 100%, 73%, 1) 81%, hsla(199, 83%, 72%, 1) 90%, hsla(205, 97%, 77%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(253, 100%, 10%, 1) 0%, hsla(220, 100%, 17%, 1) 10%, hsla(220, 100%, 29%, 1) 20%, hsla(220, 100%, 41%, 1) 30%, hsla(212, 100%, 47%, 1) 40%, hsla(215, 100%, 61%, 1) 50%, hsla(204, 96%, 54%, 1) 60%, hsla(210, 100%, 68%, 1) 70%, hsla(207, 100%, 73%, 1) 81%, hsla(199, 83%, 72%, 1) 90%, hsla(205, 97%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(253, 100%, 10%, 1) 0%, hsla(220, 100%, 17%, 1) 10%, hsla(220, 100%, 29%, 1) 20%, hsla(220, 100%, 41%, 1) 30%, hsla(212, 100%, 47%, 1) 40%, hsla(215, 100%, 61%, 1) 50%, hsla(204, 96%, 54%, 1) 60%, hsla(210, 100%, 68%, 1) 70%, hsla(207, 100%, 73%, 1) 81%, hsla(199, 83%, 72%, 1) 90%, hsla(205, 97%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0B0033", endColorstr="#001D56", GradientType=1);
+    background-size: cover;
+    background-position: 0;
+    font-family: rockwell !important;
+}
+
+.heading {
+    width: 100%;
+    font-size: xx-large !important;
+    font-weight: 787;
+}
+
+#copyright_footer {
+    background-color: gray;
+    color: aliceblue;
+    font-weight: 700;
+    bottom: 0;
+    text-align: center;
+    position: sticky;
+}
+
+p {
+    font-size: 25px;
+    color: yellow;
+    font-weight: 800;
+}
+
+.btn-warning {
+    font-size: 25px !important;
+}
+
+canvas {
+    border: 5px silver ridge;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 2px 2px 30px skyblue;}
+    to{box-shadow: 2px 2px 30px navy;}
+}
